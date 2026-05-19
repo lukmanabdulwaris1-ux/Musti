@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="HMK Tailor – Luxury Fashion & Professional Tailoring in Lagos, Nigeria"/>
+  <title>HMK Tailor | Luxury Fashion & Tailoring</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div id="loader">
+    <div class="loader-ring"></div>
+    <span>HMK Tailor</span>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo">HMK <span>Tailor</span></a>
+      <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#booking">Book</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+      <p class="hero-tag">✦ Premium Tailoring Since 2010</p>
+      <h1>Crafted for <span id="typed-text"></span><span class="cursor">|</span></h1>
+      <p class="hero-sub">Bespoke fashion for men and women — where luxury meets precision.</p>
+      <div class="hero-btns">
+        <a href="#booking" class="btn btn-gold">Book Appointment</a>
+        <a href="#services" class="btn btn-outline">Our Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="count" data-target="500">0</span>+<p>Happy Clients</p></div>
+        <div class="stat"><span class="count" data-target="15">0</span>+<p>Years Experience</p></div>
+        <div class="stat"><span class="count" data-target="1200">0</span>+<p>Outfits Made</p></div>
+      </div>
+    </div>
+    <div class="scroll-indicator"><span></span></div>
+  </section>
+
+  <!-- ===== MARQUEE STRIP ===== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Custom Sewing</span><span>✦</span>
+      <span>Wedding Outfits</span><span>✦</span>
+      <span>Native Wears</span><span>✦</span>
+      <span>Fashion Design</span><span>✦</span>
+      <span>Alterations</span><span>✦</span>
+      <span>Bridal Dresses</span><span>✦</span>
+      <span>Corporate Suits</span><span>✦</span>
+      <span>Custom Sewing</span><span>✦</span>
+      <span>Wedding Outfits</span><span>✦</span>
+      <span>Native Wears</span><span>✦</span>
+      <span>Fashion Design</span><span>✦</span>
+      <span>Alterations</span><span>✦</span>
+    </div>
+  </div>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">What We Offer</p>
+        <h2>Our Services</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">✂️</div>
+          <h3>Custom Sewing</h3>
+          <p>Luxury handmade native and English wears tailored to your exact measurements.</p>
+          <a href="#booking" class="card-link">Book Now →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">💍</div>
+          <h3>Wedding Outfits</h3>
+          <p>Perfect wedding suits, agbada, and bridal dresses crafted with elegance.</p>
+          <a href="#booking" class="card-link">Book Now →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">👔</div>
+          <h3>Corporate Suits</h3>
+          <p>Sharp, professional suits and office wear for the modern executive.</p>
+          <a href="#booking" class="card-link">Book Now →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🎨</div>
+          <h3>Fashion Design</h3>
+          <p>Modern and classic styles designed from scratch to match your vision.</p>
+          <a href="#booking" class="card-link">Book Now →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🪡</div>
+          <h3>Alterations</h3>
+          <p>Expert alterations and repairs to give your old outfits a fresh new life.</p>
+          <a href="#booking" class="card-link">Book Now →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">👗</div>
+          <h3>Native Wears</h3>
+          <p>Authentic Yoruba, Igbo, and Hausa traditional attires made with pride.</p>
+          <a href="#booking" class="card-link">Book Now →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Our Work</p>
+        <h2>Style Gallery</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="gallery-filter reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="native">Native</button>
+        <button class="filter-btn" data-filter="wedding">Wedding</button>
+        <button class="filter-btn" data-filter="corporate">Corporate</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal" data-cat="native">
+          <img src="https://images.unsplash.com/photo-1594938298603-c8148c4b4e5b?w=400&q=80" alt="Native wear" loading="lazy"/>
+          <div class="gallery-overlay"><span>Native Wear</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="wedding">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=400&q=80" alt="Wedding outfit" loading="lazy"/>
+          <div class="gallery-overlay"><span>Wedding Outfit</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="corporate">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Corporate suit" loading="lazy"/>
+          <div class="gallery-overlay"><span>Corporate Suit</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="native">
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=400&q=80" alt="Fashion design" loading="lazy"/>
+          <div class="gallery-overlay"><span>Fashion Design</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="wedding">
+          <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=400&q=80" alt="Bridal dress" loading="lazy"/>
+          <div class="gallery-overlay"><span>Bridal Dress</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="corporate">
+          <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&q=80" alt="Luxury suit" loading="lazy"/>
+          <div class="gallery-overlay"><span>Luxury Suit</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-img reveal">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="HMK Tailor workshop"/>
+        <div class="about-badge">15+ Years of Excellence</div>
+      </div>
+      <div class="about-text reveal">
+        <p class="section-tag">Our Story</p>
+        <h2>Passion Woven Into Every Stitch</h2>
+        <div class="divider left"></div>
+        <p>HMK Tailor was founded with a single vision — to bring world-class tailoring to Lagos. We combine traditional craftsmanship with modern fashion sensibilities to create outfits that tell your story.</p>
+        <p>Every piece we create is a reflection of our commitment to quality, precision, and the unique personality of our clients.</p>
+        <ul class="about-list">
+          <li>✦ 100% hand-measured and custom-fitted</li>
+          <li>✦ Premium fabrics sourced locally and internationally</li>
+          <li>✦ Delivery within 7–14 working days</li>
+          <li>✦ Free alterations within 30 days</li>
+        </ul>
+        <a href="#booking" class="btn btn-gold">Start Your Order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">How It Works</p>
+        <h2>Our Simple Process</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="process-steps">
+        <div class="step reveal"><div class="step-num">01</div><h3>Consultation</h3><p>Tell us your style, occasion, and preferences.</p></div>
+        <div class="step-arrow reveal">→</div>
+        <div class="step reveal"><div class="step-num">02</div><h3>Measurement</h3><p>We take precise measurements for a perfect fit.</p></div>
+        <div class="step-arrow reveal">→</div>
+        <div class="step reveal"><div class="step-num">03</div><h3>Crafting</h3><p>Our tailors bring your vision to life with care.</p></div>
+        <div class="step-arrow reveal">→</div>
+        <div class="step reveal"><div class="step-num">04</div><h3>Delivery</h3><p>Receive your outfit, perfectly finished and packaged.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Client Reviews</p>
+        <h2>What People Say</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="testimonial-slider reveal">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"HMK Tailor made my wedding agbada and I got compliments all night. Absolutely stunning work!"</p>
+            <div class="client"><div class="client-avatar">AO</div><div><strong>Adewale Okafor</strong><span>Lagos</span></div></div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"My corporate suits fit like a dream. The attention to detail is unmatched. Highly recommended!"</p>
+            <div class="client"><div class="client-avatar">FK</div><div><strong>Fatima Kabir</strong><span>Abuja</span></div></div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"I've been a loyal customer for 5 years. Every outfit is better than the last. True craftsmanship."</p>
+            <div class="client"><div class="client-avatar">EB</div><div><strong>Emeka Bright</strong><span>Port Harcourt</span></div></div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"My bridal dress was a masterpiece. HMK Tailor understood my vision perfectly. Thank you!"</p>
+            <div class="client"><div class="client-avatar">SI</div><div><strong>Sade Ibrahim</strong><span>Lagos</span></div></div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button id="prevBtn" aria-label="Previous">&#8592;</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button id="nextBtn" aria-label="Next">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOOKING ===== -->
+  <section class="booking section" id="booking">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Get Started</p>
+        <h2>Book an Appointment</h2>
+        <div class="divider"></div>
+      </div>
+      <form class="booking-form reveal" id="bookingForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Full Name *</label>
+            <input type="text" id="fname" name="fname" placeholder="Your full name" required/>
+            <span class="form-error" id="fnameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" placeholder="+234 XXX XXX XXXX" required/>
+            <span class="form-error" id="phoneError"></span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com"/>
+          </div>
+          <div class="form-group">
+            <label for="service">Service *</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option>Custom Sewing</option>
+              <option>Wedding Outfit</option>
+              <option>Corporate Suit</option>
+              <option>Native Wear</option>
+              <option>Alteration</option>
+              <option>Fashion Design</option>
+            </select>
+            <span class="form-error" id="serviceError"></span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="date">Preferred Date *</label>
+            <input type="date" id="date" name="date" required/>
+            <span class="form-error" id="dateError"></span>
+          </div>
+          <div class="form-group">
+            <label for="budget">Budget Range</label>
+            <select id="budget" name="budget">
+              <option value="">Select budget</option>
+              <option>Under ₦20,000</option>
+              <option>₦20,000 – ₦50,000</option>
+              <option>₦50,000 – ₦100,000</option>
+              <option>Above ₦100,000</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label for="message">Additional Notes</label>
+          <textarea id="message" name="message" rows="4" placeholder="Describe your style, fabric preference, occasion..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold btn-full">
+          <span id="submitText">Send Booking Request</span>
+          <span id="submitLoader" style="display:none">Sending...</span>
+        </button>
+        <div id="formSuccess" class="form-success" style="display:none">
+          ✅ Booking request sent! We'll contact you within 24 hours.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <p class="section-tag">Reach Us</p>
+        <h2>Get In Touch</h2>
+        <div class="divider left"></div>
+        <div class="contact-item">
+          <span class="contact-icon">📞</span>
+          <div><strong>Phone</strong><p>+234 XXX XXX XXXX</p></div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">✉️</span>
+          <div><strong>Email</strong><p>hmktailor@gmail.com</p></div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <div><strong>Location</strong><p>Lagos, Nigeria</p></div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">🕐</span>
+          <div><strong>Working Hours</strong><p>Mon – Sat: 8am – 7pm</p></div>
+        </div>
+        <div class="social-links">
+          <a href="#" aria-label="WhatsApp" class="social-btn whatsapp">WhatsApp</a>
+          <a href="#" aria-label="Instagram" class="social-btn instagram">Instagram</a>
+          <a href="#" aria-label="Facebook" class="social-btn facebook">Facebook</a>
+        </div>
+      </div>
+      <div class="contact-map reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.45932537!2d3.1438710!3d6.5480350!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1700000000000"
+          width="100%" height="350" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="HMK Tailor Location">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>HMK <span>Tailor</span></h3>
+        <p>Luxury fashion and professional tailoring in the heart of Lagos, Nigeria.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#booking">Book Now</a>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <a href="#services">Custom Sewing</a>
+        <a href="#services">Wedding Outfits</a>
+        <a href="#services">Corporate Suits</a>
+        <a href="#services">Native Wears</a>
+        <a href="#services">Alterations</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📞 +234 XXX XXX XXXX</p>
+        <p>✉️ hmktailor@gmail.com</p>
+        <p>📍 Lagos, Nigeria</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 HMK Tailor. All Rights Reserved. | Crafted with ❤️ in Lagos</p>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" id="lightboxClose">✕</button>
+    <img id="lightboxImg" src="" alt="Gallery preview"/>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
